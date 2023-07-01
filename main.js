@@ -20,6 +20,235 @@ productList.push({
     description: 'Powerful gaming CPU designed for optimal performance, delivering immersive gameplay and smooth multitasking.'
 });
 
+//navigation bar structure
+const navbar = document.createElement('nav');
+body.insertBefore(navbar, body.children[0]);
+
+const navbar_icon_menu = document.createElement('img');
+navbar_icon_menu.setAttribute('src', './icons/icon_menu.svg');
+navbar_icon_menu.setAttribute('alt', 'menu');
+navbar_icon_menu.classList.add('menu');
+navbar.appendChild(navbar_icon_menu);
+
+const navbar_left = document.createElement('div');
+navbar_left.classList.add('navbar-left');
+navbar.appendChild(navbar_left);
+
+const navbar_logo = document.createElement('img');
+navbar_logo.setAttribute('src', './logos/logo_yard_sale.svg');
+navbar_logo.setAttribute('alt', 'logo');
+navbar_logo.classList.add('logo');
+navbar_left.appendChild(navbar_logo);
+
+const list_navbar_left = document.createElement('ul');
+navbar_left.appendChild(list_navbar_left);
+
+const li_all_navbar_left = document.createElement('li');
+list_navbar_left.appendChild(li_all_navbar_left);
+const a_all_navbar_left = document.createElement('a');
+a_all_navbar_left.setAttribute('href', '#');
+a_all_navbar_left.innerText = 'All';
+li_all_navbar_left.appendChild(a_all_navbar_left);
+
+const li_clothes_navbar_left = document.createElement('li');
+list_navbar_left.appendChild(li_clothes_navbar_left);
+const a_clothes_navbar_left = document.createElement('a');
+a_clothes_navbar_left.setAttribute('href', '#');
+a_clothes_navbar_left.innerText = 'Clothes';
+li_clothes_navbar_left.appendChild(a_clothes_navbar_left);
+
+const li_electronics_navbar_left = document.createElement('li');
+list_navbar_left.appendChild(li_electronics_navbar_left);
+const a_electronics_navbar_left = document.createElement('a');
+a_electronics_navbar_left.setAttribute('href', '#');
+a_electronics_navbar_left.innerText = 'Electronics';
+li_electronics_navbar_left.appendChild(a_electronics_navbar_left);
+
+const li_furnitures_navbar_left = document.createElement('li');
+list_navbar_left.appendChild(li_furnitures_navbar_left);
+const a_furnitures_navbar_left = document.createElement('a');
+a_furnitures_navbar_left.setAttribute('href', '#');
+a_furnitures_navbar_left.innerText = 'Furnitures';
+li_furnitures_navbar_left.appendChild(a_furnitures_navbar_left);
+
+const li_toys_navbar_left = document.createElement('li');
+list_navbar_left.appendChild(li_toys_navbar_left);
+const a_toys_navbar_left = document.createElement('a');
+a_toys_navbar_left.setAttribute('href', '#');
+a_toys_navbar_left.innerText = 'Toys';
+li_toys_navbar_left.appendChild(a_toys_navbar_left);
+
+const li_others_navbar_left = document.createElement('li');
+list_navbar_left.appendChild(li_others_navbar_left);
+const a_others_navbar_left = document.createElement('a');
+a_others_navbar_left.setAttribute('href', '#');
+a_others_navbar_left.innerText = 'Others';
+li_others_navbar_left.appendChild(a_others_navbar_left);
+
+const navbar_right = document.createElement('div');
+navbar_right.classList.add('navbar-right');
+navbar.appendChild(navbar_right);
+
+const ul_navbar_right = document.createElement('ul');
+navbar_right.appendChild(ul_navbar_right);
+
+const li_navbar_email = document.createElement('li');
+li_navbar_email.classList.add('navbar-email');
+li_navbar_email.innerText = 'platzi@example.com';
+ul_navbar_right.appendChild(li_navbar_email);
+
+const li_navbar_shopping_cart = document.createElement('li');
+li_navbar_shopping_cart.classList.add('navbar-shopping-cart');
+ul_navbar_right.appendChild(li_navbar_shopping_cart);
+
+const img_navbar_shopping_cart = document.createElement('img');
+img_navbar_shopping_cart.setAttribute('src', './icons/icon_shopping_cart.svg');
+img_navbar_shopping_cart.setAttribute('alt', 'shopping cart');
+li_navbar_shopping_cart.appendChild(img_navbar_shopping_cart);
+
+const counter_cart = document.createElement('div');
+counter_cart.setAttribute('id', 'counterCart');
+counter_cart.classList.add('counter-cart');
+counter_cart.innerText = '0'; //contador
+li_navbar_shopping_cart.appendChild(counter_cart);
+
+const desktop_menu = document.createElement('div');
+desktop_menu.classList.add('desktop-menu');
+desktop_menu.classList.add('inactive');
+navbar.appendChild(desktop_menu);
+
+const ul_desktop_menu = document.createElement('ul');
+desktop_menu.appendChild(ul_desktop_menu);
+
+const li_title_desktop_menu = document.createElement('li');
+ul_desktop_menu.appendChild(li_title_desktop_menu);
+
+const a_title_desktop_menu = document.createElement('a');
+a_title_desktop_menu.setAttribute('href', '#');
+a_title_desktop_menu.classList.add('title');
+a_title_desktop_menu.innerText = 'My orders';
+li_title_desktop_menu.appendChild(a_title_desktop_menu);
+
+const li_account_desktop_menu = document.createElement('li');
+ul_desktop_menu.appendChild(li_account_desktop_menu);
+
+const a_account_desktop_menu = document.createElement('a');
+a_account_desktop_menu.setAttribute('href', '#');
+a_account_desktop_menu.innerText = 'My account';
+li_account_desktop_menu.appendChild(a_account_desktop_menu);
+
+const li_sign_out_desktop_menu = document.createElement('li');
+ul_desktop_menu.appendChild(li_sign_out_desktop_menu);
+
+const a_sign_out_desktop_menu = document.createElement('a');
+a_sign_out_desktop_menu.setAttribute('href', '#');
+a_sign_out_desktop_menu.innerText = 'Sign out';
+li_sign_out_desktop_menu.appendChild(a_sign_out_desktop_menu);
+
+const mobile_menu = document.createElement('div');
+mobile_menu.classList.add('mobile-menu');
+mobile_menu.classList.add('inactive');
+navbar.appendChild(mobile_menu);
+
+const ul1_mobile_menu = document.createElement('ul');
+mobile_menu.appendChild(ul1_mobile_menu);
+
+const li_categories_mobile_menu = document.createElement('li');
+ul1_mobile_menu.appendChild(li_categories_mobile_menu);
+
+const a_categories_mobile_menu = document.createElement('a');
+a_categories_mobile_menu.setAttribute('href', '#');
+a_categories_mobile_menu.innerText = 'Categories';
+li_categories_mobile_menu.appendChild(a_categories_mobile_menu);
+
+const li_all_mobile_menu = document.createElement('li');
+ul1_mobile_menu.appendChild(li_all_mobile_menu);
+
+const a_all_mobile_menu = document.createElement('a');
+a_all_mobile_menu.setAttribute('href', '#');
+a_all_mobile_menu.innerText = 'All';
+li_all_mobile_menu.appendChild(a_all_mobile_menu);
+
+const li_clothes_mobile_menu = document.createElement('li');
+ul1_mobile_menu.appendChild(li_clothes_mobile_menu);
+
+const a_clothes_mobile_menu = document.createElement('a');
+a_clothes_mobile_menu.setAttribute('href', '#');
+a_clothes_mobile_menu.innerText = 'Clothes';
+li_clothes_mobile_menu.appendChild(a_clothes_mobile_menu);
+
+const li_electronics_mobile_menu = document.createElement('li');
+ul1_mobile_menu.appendChild(li_electronics_mobile_menu);
+
+const a_electronics_mobile_menu = document.createElement('a');
+a_electronics_mobile_menu.setAttribute('href', '#');
+a_electronics_mobile_menu.innerText = 'Electronics';
+li_electronics_mobile_menu.appendChild(a_electronics_mobile_menu);
+
+const li_furnitures_mobile_menu = document.createElement('li');
+ul1_mobile_menu.appendChild(li_furnitures_mobile_menu);
+
+const a_furnitures_mobile_menu = document.createElement('a');
+a_furnitures_mobile_menu.setAttribute('href', '#');
+a_furnitures_mobile_menu.innerText = 'Furnitures';
+li_furnitures_mobile_menu.appendChild(a_furnitures_mobile_menu);
+
+const li_toys_mobile_menu = document.createElement('li');
+ul1_mobile_menu.appendChild(li_toys_mobile_menu);
+
+const a_toys_mobile_menu = document.createElement('a');
+a_toys_mobile_menu.setAttribute('href', '#');
+a_toys_mobile_menu.innerText = 'Toys';
+li_toys_mobile_menu.appendChild(a_toys_mobile_menu);
+
+const li_others_mobile_menu = document.createElement('li');
+ul1_mobile_menu.appendChild(li_others_mobile_menu);
+
+const a_others_mobile_menu = document.createElement('a');
+a_others_mobile_menu.setAttribute('href', '#');
+a_others_mobile_menu.innerText = 'Others';
+li_others_mobile_menu.appendChild(a_others_mobile_menu);
+
+const ul2_mobile_menu = document.createElement('ul');
+mobile_menu.appendChild(ul2_mobile_menu);
+
+const li_orders_mobile_menu = document.createElement('li');
+ul2_mobile_menu.appendChild(li_orders_mobile_menu);
+
+const a_orders_mobile_menu = document.createElement('a');
+a_orders_mobile_menu.setAttribute('href', '#');
+a_orders_mobile_menu.innerText = 'My orders';
+li_orders_mobile_menu.appendChild(a_orders_mobile_menu);
+
+const li_account_mobile_menu = document.createElement('li');
+ul2_mobile_menu.appendChild(li_account_mobile_menu);
+
+const a_account_mobile_menu = document.createElement('a');
+a_account_mobile_menu.setAttribute('href', '#');
+a_account_mobile_menu.innerText = 'My account';
+li_account_mobile_menu.appendChild(a_account_mobile_menu);
+
+const ul3_mobile_menu = document.createElement('ul');
+mobile_menu.appendChild(ul3_mobile_menu);
+
+const li_email_mobile_menu = document.createElement('li');
+ul3_mobile_menu.appendChild(li_email_mobile_menu);
+
+const a_email_mobile_menu = document.createElement('a');
+a_email_mobile_menu.setAttribute('href', '#');
+a_email_mobile_menu.classList.add('email');
+a_email_mobile_menu.innerText = 'platzi@example.com';
+li_email_mobile_menu.appendChild(a_email_mobile_menu);
+
+const li_sign_out_mobile_menu = document.createElement('li');
+ul3_mobile_menu.appendChild(li_sign_out_mobile_menu);
+
+const a_sign_out_mobile_menu = document.createElement('a');
+a_sign_out_mobile_menu.setAttribute('href', '#');
+a_sign_out_mobile_menu.classList.add('sign-out');
+a_sign_out_mobile_menu.innerText = 'Sign out';
+li_sign_out_mobile_menu.appendChild(a_sign_out_mobile_menu);
+
 //product detail structure
 const product_detail = document.createElement('aside');
 product_detail.setAttribute('id', 'productDetail');
