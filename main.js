@@ -3,19 +3,19 @@ const body = document.querySelector('body');
 const productList = [];
 productList.push({
     name: 'Bike',
-    price: 120,
+    price: 219,
     image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
     description : 'With its practical position, this bike also fulfills a decorative function, add your hall or workspace.'
 });
 productList.push({
-    name: 'Pantalla',
-    price: 220,
+    name: 'Computer monitor',
+    price: 165,
     image: 'https://images.pexels.com/photos/331788/pexels-photo-331788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     description: 'This screen is perfect for your home office, it has a 4k resolution and a 32-inch screen.'
 });
 productList.push({
     name: 'Computer',
-    price: 620,
+    price: 1014,
     image: 'https://media.istockphoto.com/id/1314343964/es/foto/unidad-de-sistema-de-gama-alta-para-el-primer-plano-de-la-computadora-de-juego.jpg?s=2048x2048&w=is&k=20&c=4ZfOgrUzagfHV0jGwuxoA_3IPZldmI9eqG3aBX-P0_Q=',
     description: 'Powerful gaming CPU designed for optimal performance, delivering immersive gameplay and smooth multitasking.'
 });
