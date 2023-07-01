@@ -46,42 +46,42 @@ navbar_left.appendChild(list_navbar_left);
 const li_all_navbar_left = document.createElement('li');
 list_navbar_left.appendChild(li_all_navbar_left);
 const a_all_navbar_left = document.createElement('a');
-a_all_navbar_left.setAttribute('href', '#');
+a_all_navbar_left.setAttribute('href', '/');
 a_all_navbar_left.innerText = 'All';
 li_all_navbar_left.appendChild(a_all_navbar_left);
 
 const li_clothes_navbar_left = document.createElement('li');
 list_navbar_left.appendChild(li_clothes_navbar_left);
 const a_clothes_navbar_left = document.createElement('a');
-a_clothes_navbar_left.setAttribute('href', '#');
+a_clothes_navbar_left.setAttribute('href', '/');
 a_clothes_navbar_left.innerText = 'Clothes';
 li_clothes_navbar_left.appendChild(a_clothes_navbar_left);
 
 const li_electronics_navbar_left = document.createElement('li');
 list_navbar_left.appendChild(li_electronics_navbar_left);
 const a_electronics_navbar_left = document.createElement('a');
-a_electronics_navbar_left.setAttribute('href', '#');
+a_electronics_navbar_left.setAttribute('href', '/');
 a_electronics_navbar_left.innerText = 'Electronics';
 li_electronics_navbar_left.appendChild(a_electronics_navbar_left);
 
 const li_furnitures_navbar_left = document.createElement('li');
 list_navbar_left.appendChild(li_furnitures_navbar_left);
 const a_furnitures_navbar_left = document.createElement('a');
-a_furnitures_navbar_left.setAttribute('href', '#');
+a_furnitures_navbar_left.setAttribute('href', '/');
 a_furnitures_navbar_left.innerText = 'Furnitures';
 li_furnitures_navbar_left.appendChild(a_furnitures_navbar_left);
 
 const li_toys_navbar_left = document.createElement('li');
 list_navbar_left.appendChild(li_toys_navbar_left);
 const a_toys_navbar_left = document.createElement('a');
-a_toys_navbar_left.setAttribute('href', '#');
+a_toys_navbar_left.setAttribute('href', '/');
 a_toys_navbar_left.innerText = 'Toys';
 li_toys_navbar_left.appendChild(a_toys_navbar_left);
 
 const li_others_navbar_left = document.createElement('li');
 list_navbar_left.appendChild(li_others_navbar_left);
 const a_others_navbar_left = document.createElement('a');
-a_others_navbar_left.setAttribute('href', '#');
+a_others_navbar_left.setAttribute('href', '/');
 a_others_navbar_left.innerText = 'Others';
 li_others_navbar_left.appendChild(a_others_navbar_left);
 
@@ -124,7 +124,7 @@ const li_title_desktop_menu = document.createElement('li');
 ul_desktop_menu.appendChild(li_title_desktop_menu);
 
 const a_title_desktop_menu = document.createElement('a');
-a_title_desktop_menu.setAttribute('href', '#');
+a_title_desktop_menu.setAttribute('href', '/');
 a_title_desktop_menu.classList.add('title');
 a_title_desktop_menu.innerText = 'My orders';
 li_title_desktop_menu.appendChild(a_title_desktop_menu);
@@ -133,7 +133,7 @@ const li_account_desktop_menu = document.createElement('li');
 ul_desktop_menu.appendChild(li_account_desktop_menu);
 
 const a_account_desktop_menu = document.createElement('a');
-a_account_desktop_menu.setAttribute('href', '#');
+a_account_desktop_menu.setAttribute('href', '/');
 a_account_desktop_menu.innerText = 'My account';
 li_account_desktop_menu.appendChild(a_account_desktop_menu);
 
@@ -141,7 +141,7 @@ const li_sign_out_desktop_menu = document.createElement('li');
 ul_desktop_menu.appendChild(li_sign_out_desktop_menu);
 
 const a_sign_out_desktop_menu = document.createElement('a');
-a_sign_out_desktop_menu.setAttribute('href', '#');
+a_sign_out_desktop_menu.setAttribute('href', '/');
 a_sign_out_desktop_menu.innerText = 'Sign out';
 li_sign_out_desktop_menu.appendChild(a_sign_out_desktop_menu);
 
@@ -157,7 +157,7 @@ const li_categories_mobile_menu = document.createElement('li');
 ul1_mobile_menu.appendChild(li_categories_mobile_menu);
 
 const a_categories_mobile_menu = document.createElement('a');
-a_categories_mobile_menu.setAttribute('href', '#');
+a_categories_mobile_menu.setAttribute('href', '/');
 a_categories_mobile_menu.innerText = 'Categories';
 li_categories_mobile_menu.appendChild(a_categories_mobile_menu);
 
@@ -165,7 +165,7 @@ const li_all_mobile_menu = document.createElement('li');
 ul1_mobile_menu.appendChild(li_all_mobile_menu);
 
 const a_all_mobile_menu = document.createElement('a');
-a_all_mobile_menu.setAttribute('href', '#');
+a_all_mobile_menu.setAttribute('href', '/');
 a_all_mobile_menu.innerText = 'All';
 li_all_mobile_menu.appendChild(a_all_mobile_menu);
 
@@ -173,7 +173,7 @@ const li_clothes_mobile_menu = document.createElement('li');
 ul1_mobile_menu.appendChild(li_clothes_mobile_menu);
 
 const a_clothes_mobile_menu = document.createElement('a');
-a_clothes_mobile_menu.setAttribute('href', '#');
+a_clothes_mobile_menu.setAttribute('href', '/');
 a_clothes_mobile_menu.innerText = 'Clothes';
 li_clothes_mobile_menu.appendChild(a_clothes_mobile_menu);
 
@@ -181,7 +181,7 @@ const li_electronics_mobile_menu = document.createElement('li');
 ul1_mobile_menu.appendChild(li_electronics_mobile_menu);
 
 const a_electronics_mobile_menu = document.createElement('a');
-a_electronics_mobile_menu.setAttribute('href', '#');
+a_electronics_mobile_menu.setAttribute('href', '/');
 a_electronics_mobile_menu.innerText = 'Electronics';
 li_electronics_mobile_menu.appendChild(a_electronics_mobile_menu);
 
@@ -189,7 +189,7 @@ const li_furnitures_mobile_menu = document.createElement('li');
 ul1_mobile_menu.appendChild(li_furnitures_mobile_menu);
 
 const a_furnitures_mobile_menu = document.createElement('a');
-a_furnitures_mobile_menu.setAttribute('href', '#');
+a_furnitures_mobile_menu.setAttribute('href', '/');
 a_furnitures_mobile_menu.innerText = 'Furnitures';
 li_furnitures_mobile_menu.appendChild(a_furnitures_mobile_menu);
 
@@ -197,7 +197,7 @@ const li_toys_mobile_menu = document.createElement('li');
 ul1_mobile_menu.appendChild(li_toys_mobile_menu);
 
 const a_toys_mobile_menu = document.createElement('a');
-a_toys_mobile_menu.setAttribute('href', '#');
+a_toys_mobile_menu.setAttribute('href', '/');
 a_toys_mobile_menu.innerText = 'Toys';
 li_toys_mobile_menu.appendChild(a_toys_mobile_menu);
 
@@ -205,7 +205,7 @@ const li_others_mobile_menu = document.createElement('li');
 ul1_mobile_menu.appendChild(li_others_mobile_menu);
 
 const a_others_mobile_menu = document.createElement('a');
-a_others_mobile_menu.setAttribute('href', '#');
+a_others_mobile_menu.setAttribute('href', '/');
 a_others_mobile_menu.innerText = 'Others';
 li_others_mobile_menu.appendChild(a_others_mobile_menu);
 
@@ -216,7 +216,7 @@ const li_orders_mobile_menu = document.createElement('li');
 ul2_mobile_menu.appendChild(li_orders_mobile_menu);
 
 const a_orders_mobile_menu = document.createElement('a');
-a_orders_mobile_menu.setAttribute('href', '#');
+a_orders_mobile_menu.setAttribute('href', '/');
 a_orders_mobile_menu.innerText = 'My orders';
 li_orders_mobile_menu.appendChild(a_orders_mobile_menu);
 
@@ -224,7 +224,7 @@ const li_account_mobile_menu = document.createElement('li');
 ul2_mobile_menu.appendChild(li_account_mobile_menu);
 
 const a_account_mobile_menu = document.createElement('a');
-a_account_mobile_menu.setAttribute('href', '#');
+a_account_mobile_menu.setAttribute('href', '/');
 a_account_mobile_menu.innerText = 'My account';
 li_account_mobile_menu.appendChild(a_account_mobile_menu);
 
@@ -235,7 +235,7 @@ const li_email_mobile_menu = document.createElement('li');
 ul3_mobile_menu.appendChild(li_email_mobile_menu);
 
 const a_email_mobile_menu = document.createElement('a');
-a_email_mobile_menu.setAttribute('href', '#');
+a_email_mobile_menu.setAttribute('href', '/');
 a_email_mobile_menu.classList.add('email');
 a_email_mobile_menu.innerText = 'platzi@example.com';
 li_email_mobile_menu.appendChild(a_email_mobile_menu);
@@ -244,7 +244,7 @@ const li_sign_out_mobile_menu = document.createElement('li');
 ul3_mobile_menu.appendChild(li_sign_out_mobile_menu);
 
 const a_sign_out_mobile_menu = document.createElement('a');
-a_sign_out_mobile_menu.setAttribute('href', '#');
+a_sign_out_mobile_menu.setAttribute('href', '/');
 a_sign_out_mobile_menu.classList.add('sign-out');
 a_sign_out_mobile_menu.innerText = 'Sign out';
 li_sign_out_mobile_menu.appendChild(a_sign_out_mobile_menu);
